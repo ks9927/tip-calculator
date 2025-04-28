@@ -37,7 +37,7 @@ body {
   align-items: center;
 }
 
-label, button {
+label, button, .total-num {
   font-weight: bold;
 }
 
