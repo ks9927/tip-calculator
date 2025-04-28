@@ -4,10 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Tip Calculator</title>
 </head>
 <body>
-  
+  <!-- Container -->
+   <div class="container">
+    <h2>Tip Calculator</h2>
+    <p>Enter bill amount and tip amount</p>
+    <!-- Input div -->
+     <div class="input-div">
+    <label for="bill">Bill Amount:</label>
+    <input type="number" name="bill" id="bill">
+    <label for="tip">Tip Amount</label>
+    <input type="number" name="tip" id="tip">
+     </div>
+
+     <!-- Total Div -->
+     <div class="total-div">
+      <button>Calculate Tip</button>
+      <p class = "total-num">Total:</p>
+     </div>
+   </div>
   <script src="tip.js"></script>
 </body>
 </html>
